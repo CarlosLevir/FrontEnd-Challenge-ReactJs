@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import { getPosts } from '../services/api';
 import HomeCard from '../presentations/HomeCard';
 
@@ -11,7 +12,7 @@ const styles = {
   }
 };
 
-export default class HomePage extends Component {
+class HomePage extends Component {
   constructor(props) {
     super(props);
 
@@ -38,3 +39,5 @@ export default class HomePage extends Component {
     return <div style={styles.container}>{postsRendered}</div>;
   }
 }
+
+export default withRouter(HomePage);
