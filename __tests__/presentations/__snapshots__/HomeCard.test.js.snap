@@ -39,6 +39,7 @@ ShallowWrapper {
           bsClass="btn"
           bsStyle="danger"
           disabled={false}
+          onClick={[Function]}
         >
           Learn more
         </Button>
@@ -55,7 +56,7 @@ ShallowWrapper {
   },
   Symbol(enzyme.__node__): Object {
     "instance": null,
-    "key": "1",
+    "key": undefined,
     "nodeType": "host",
     "props": Object {
       "children": <Uncontrolled(Panel)
@@ -93,6 +94,7 @@ ShallowWrapper {
             bsClass="btn"
             bsStyle="danger"
             disabled={false}
+            onClick={[Function]}
           >
             Learn more
           </Button>
@@ -132,6 +134,7 @@ ShallowWrapper {
               bsClass="btn"
               bsStyle="danger"
               disabled={false}
+              onClick={[Function]}
             >
               Learn more
             </Button>
@@ -174,6 +177,7 @@ ShallowWrapper {
                 bsClass="btn"
                 bsStyle="danger"
                 disabled={false}
+                onClick={[Function]}
               >
                 Learn more
               </Button>,
@@ -200,6 +204,7 @@ ShallowWrapper {
                 "bsStyle": "danger",
                 "children": "Learn more",
                 "disabled": false,
+                "onClick": [Function],
               },
               "ref": null,
               "rendered": "Learn more",
@@ -216,7 +221,7 @@ ShallowWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
-      "key": "1",
+      "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": <Uncontrolled(Panel)
@@ -254,6 +259,7 @@ ShallowWrapper {
               bsClass="btn"
               bsStyle="danger"
               disabled={false}
+              onClick={[Function]}
             >
               Learn more
             </Button>
@@ -293,6 +299,7 @@ ShallowWrapper {
                 bsClass="btn"
                 bsStyle="danger"
                 disabled={false}
+                onClick={[Function]}
               >
                 Learn more
               </Button>
@@ -335,6 +342,7 @@ ShallowWrapper {
                   bsClass="btn"
                   bsStyle="danger"
                   disabled={false}
+                  onClick={[Function]}
                 >
                   Learn more
                 </Button>,
@@ -361,6 +369,7 @@ ShallowWrapper {
                   "bsStyle": "danger",
                   "children": "Learn more",
                   "disabled": false,
+                  "onClick": [Function],
                 },
                 "ref": null,
                 "rendered": "Learn more",

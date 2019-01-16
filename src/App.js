@@ -1,9 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
+import { Provider } from 'react-redux';
+import AppRouter from './AppRouter';
+import configureStore from './store/store';
+
+const { store } = configureStore();
 
 const App = () => (
-  <div>
-    <Header />
-  </div>
+  <Provider store={store}>
+    <AppRouter />
+  </Provider>
 );
 export default App;

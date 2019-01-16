@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
 import { getPosts } from '../services/api';
 import HomeCard from '../presentations/HomeCard';
 
@@ -31,7 +30,7 @@ class HomePage extends Component {
       .catch(error => console.log('error ', error));
   };
 
-  renderItem = post => <HomeCard post={post} />;
+  renderItem = post => <HomeCard post={post} key={post.id} />;
 
   render() {
     const { posts } = this.state;
@@ -40,4 +39,4 @@ class HomePage extends Component {
   }
 }
 
-export default withRouter(HomePage);
+export default HomePage;
