@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import { getPosts } from '../services/api';
 import HomeCard from '../presentations/HomeCard';
 
+const styles = {
+  container: {
+    display: 'flex',
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+};
+
 export default class HomePage extends Component {
   constructor(props) {
     super(props);
@@ -26,6 +35,6 @@ export default class HomePage extends Component {
   render() {
     const { posts } = this.state;
     const postsRendered = posts.map(post => this.renderItem(post));
-    return <div>{postsRendered}</div>;
+    return <div style={styles.container}>{postsRendered}</div>;
   }
 }
