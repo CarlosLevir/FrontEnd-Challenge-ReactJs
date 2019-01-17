@@ -15,7 +15,8 @@ class CommentsPage extends Component {
   renderItem = (comment, key) => <CommentsCard comment={comment} key={key} />;
 
   render() {
-    const { comments } = this.props;
+    // eslint-disable-next-line react/destructuring-assignment
+    const { comments } = this.props.comments;
     const renderedComments = comments.map((comment, key) => this.renderItem(comment, key));
     return <div style={styles.container}>{renderedComments}</div>;
   }

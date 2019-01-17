@@ -18,7 +18,10 @@ const Comments = ({ comment }) => (
     <Panel bsSize="small" style={styles.item}>
       <Panel.Heading>{comment.name}</Panel.Heading>
       <Panel.Body style={styles.bodyPanel}>
+        Email:
+        {' '}
         {comment.email}
+        {' '}
         {comment.body}
       </Panel.Body>
     </Panel>

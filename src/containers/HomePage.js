@@ -20,14 +20,11 @@ class HomePage extends Component {
     };
   }
 
-  componentDidMount = () => {
-    getPosts()
-      .then((response) => {
-        this.setState({
-          posts: response.data
-        });
-      })
-      .catch(error => console.log('error ', error));
+  componentDidMount = async () => {
+    const response = await getPosts();
+    this.setState({
+      posts: response.data
+    });
   };
 
   renderItem = post => <HomeCard post={post} key={post.id} />;
