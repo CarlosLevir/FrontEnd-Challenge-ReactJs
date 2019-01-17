@@ -1,6 +1,6 @@
 ## Front-End Challenge
 
-A Project for a Job Oporunity, Made by so
+A Project for a Job Oporunity, Made by consuming an API.
 ### [DEMO](http://front-end-challenge.esy.es)
 
 ## Usage
@@ -38,3 +38,6 @@ To run tests type:
 ```h
 yarn test
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
