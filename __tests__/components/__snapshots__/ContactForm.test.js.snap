@@ -1,0 +1,2029 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactForm renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ContactForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <form
+          onSubmit={[Function]}
+        >
+          <FormGroup
+            bsClass="form-group"
+            controlId="formBasicText"
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your name
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your name..."
+                  required={true}
+                  type="text"
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your email
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your email..."
+                  required={true}
+                  type="email"
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your state
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your state..."
+                  required={true}
+                  type="text"
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your city
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your city..."
+                  required={true}
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your message
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  cols="110"
+                  componentClass="textarea"
+                  placeholder="Your Message..."
+                  required={true}
+                  rows="10"
+                />
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                disabled={false}
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+                type="submit"
+              >
+                Submit
+              </Button>
+            </div>
+          </FormGroup>
+        </form>,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <FormGroup
+            bsClass="form-group"
+            controlId="formBasicText"
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your name
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your name..."
+                  required={true}
+                  type="text"
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your email
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your email..."
+                  required={true}
+                  type="email"
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your state
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your state..."
+                  required={true}
+                  type="text"
+                />
+              </div>
+              <div
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your city
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  componentClass="input"
+                  placeholder="Your city..."
+                  required={true}
+                  type="text"
+                />
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "maxWidth": "80%",
+                  }
+                }
+              >
+                <ControlLabel
+                  bsClass="control-label"
+                  srOnly={false}
+                >
+                  Type your message
+                </ControlLabel>
+                <FormControl
+                  bsClass="form-control"
+                  cols="110"
+                  componentClass="textarea"
+                  placeholder="Your Message..."
+                  required={true}
+                  rows="10"
+                />
+              </div>
+            </div>
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                disabled={false}
+                style={
+                  Object {
+                    "margin": 5,
+                  }
+                }
+                type="submit"
+              >
+                Submit
+              </Button>
+            </div>
+          </FormGroup>,
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "form-group",
+            "children": Array [
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your name
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your name..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your email
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your email..."
+                    required={true}
+                    type="email"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your state
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your state..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your city
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your city..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+              </div>,
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "maxWidth": "80%",
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your message
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    cols="110"
+                    componentClass="textarea"
+                    placeholder="Your Message..."
+                    required={true}
+                    rows="10"
+                  />
+                </div>
+              </div>,
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Button
+                  active={false}
+                  block={false}
+                  bsClass="btn"
+                  bsStyle="default"
+                  disabled={false}
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                  type="submit"
+                >
+                  Submit
+                </Button>
+              </div>,
+            ],
+            "controlId": "formBasicText",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your name
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your name..."
+                      required={true}
+                      type="text"
+                    />
+                  </div>,
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your email
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your email..."
+                      required={true}
+                      type="email"
+                    />
+                  </div>,
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your state
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your state..."
+                      required={true}
+                      type="text"
+                    />
+                  </div>,
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your city
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your city..."
+                      required={true}
+                      type="text"
+                    />
+                  </div>,
+                ],
+                "style": Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your name
+                      </ControlLabel>,
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your name..."
+                        required={true}
+                        type="text"
+                      />,
+                    ],
+                    "style": Object {
+                      "margin": 5,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "control-label",
+                        "children": "Type your name",
+                        "srOnly": false,
+                      },
+                      "ref": null,
+                      "rendered": "Type your name",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "form-control",
+                        "componentClass": "input",
+                        "placeholder": "Your name...",
+                        "required": true,
+                        "style": undefined,
+                        "type": "text",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your email
+                      </ControlLabel>,
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your email..."
+                        required={true}
+                        type="email"
+                      />,
+                    ],
+                    "style": Object {
+                      "margin": 5,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "control-label",
+                        "children": "Type your email",
+                        "srOnly": false,
+                      },
+                      "ref": null,
+                      "rendered": "Type your email",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "form-control",
+                        "componentClass": "input",
+                        "placeholder": "Your email...",
+                        "required": true,
+                        "style": undefined,
+                        "type": "email",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your state
+                      </ControlLabel>,
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your state..."
+                        required={true}
+                        type="text"
+                      />,
+                    ],
+                    "style": Object {
+                      "margin": 5,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "control-label",
+                        "children": "Type your state",
+                        "srOnly": false,
+                      },
+                      "ref": null,
+                      "rendered": "Type your state",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "form-control",
+                        "componentClass": "input",
+                        "placeholder": "Your state...",
+                        "required": true,
+                        "style": undefined,
+                        "type": "text",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your city
+                      </ControlLabel>,
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your city..."
+                        required={true}
+                        type="text"
+                      />,
+                    ],
+                    "style": Object {
+                      "margin": 5,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "control-label",
+                        "children": "Type your city",
+                        "srOnly": false,
+                      },
+                      "ref": null,
+                      "rendered": "Type your city",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "form-control",
+                        "componentClass": "input",
+                        "placeholder": "Your city...",
+                        "required": true,
+                        "style": undefined,
+                        "type": "text",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  style={
+                    Object {
+                      "maxWidth": "80%",
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your message
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    cols="110"
+                    componentClass="textarea"
+                    placeholder="Your Message..."
+                    required={true}
+                    rows="10"
+                  />
+                </div>,
+                "style": Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your message
+                    </ControlLabel>,
+                    <FormControl
+                      bsClass="form-control"
+                      cols="110"
+                      componentClass="textarea"
+                      placeholder="Your Message..."
+                      required={true}
+                      rows="10"
+                    />,
+                  ],
+                  "style": Object {
+                    "maxWidth": "80%",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "bsClass": "control-label",
+                      "children": "Type your message",
+                      "srOnly": false,
+                    },
+                    "ref": null,
+                    "rendered": "Type your message",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "bsClass": "form-control",
+                      "cols": "110",
+                      "componentClass": "textarea",
+                      "placeholder": "Your Message...",
+                      "required": true,
+                      "rows": "10",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Button
+                  active={false}
+                  block={false}
+                  bsClass="btn"
+                  bsStyle="default"
+                  disabled={false}
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                  type="submit"
+                >
+                  Submit
+                </Button>,
+                "style": Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexWrap": "wrap",
+                  "justifyContent": "center",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "active": false,
+                  "block": false,
+                  "bsClass": "btn",
+                  "bsStyle": "default",
+                  "children": "Submit",
+                  "disabled": false,
+                  "style": Object {
+                    "margin": 5,
+                  },
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "form",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <form
+            onSubmit={[Function]}
+          >
+            <FormGroup
+              bsClass="form-group"
+              controlId="formBasicText"
+            >
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your name
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your name..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your email
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your email..."
+                    required={true}
+                    type="email"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your state
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your state..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your city
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your city..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "maxWidth": "80%",
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your message
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    cols="110"
+                    componentClass="textarea"
+                    placeholder="Your Message..."
+                    required={true}
+                    rows="10"
+                  />
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Button
+                  active={false}
+                  block={false}
+                  bsClass="btn"
+                  bsStyle="default"
+                  disabled={false}
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                  type="submit"
+                >
+                  Submit
+                </Button>
+              </div>
+            </FormGroup>
+          </form>,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <FormGroup
+              bsClass="form-group"
+              controlId="formBasicText"
+            >
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your name
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your name..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your email
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your email..."
+                    required={true}
+                    type="email"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your state
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your state..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+                <div
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your city
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    placeholder="Your city..."
+                    required={true}
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "maxWidth": "80%",
+                    }
+                  }
+                >
+                  <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+                  >
+                    Type your message
+                  </ControlLabel>
+                  <FormControl
+                    bsClass="form-control"
+                    cols="110"
+                    componentClass="textarea"
+                    placeholder="Your Message..."
+                    required={true}
+                    rows="10"
+                  />
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Button
+                  active={false}
+                  block={false}
+                  bsClass="btn"
+                  bsStyle="default"
+                  disabled={false}
+                  style={
+                    Object {
+                      "margin": 5,
+                    }
+                  }
+                  type="submit"
+                >
+                  Submit
+                </Button>
+              </div>
+            </FormGroup>,
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-group",
+              "children": Array [
+                <div
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexWrap": "wrap",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your name
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your name..."
+                      required={true}
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your email
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your email..."
+                      required={true}
+                      type="email"
+                    />
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your state
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your state..."
+                      required={true}
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your city
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      componentClass="input"
+                      placeholder="Your city..."
+                      required={true}
+                      type="text"
+                    />
+                  </div>
+                </div>,
+                <div
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexWrap": "wrap",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "maxWidth": "80%",
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your message
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      cols="110"
+                      componentClass="textarea"
+                      placeholder="Your Message..."
+                      required={true}
+                      rows="10"
+                    />
+                  </div>
+                </div>,
+                <div
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexWrap": "wrap",
+                      "justifyContent": "center",
+                    }
+                  }
+                >
+                  <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
+                    disabled={false}
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                    type="submit"
+                  >
+                    Submit
+                  </Button>
+                </div>,
+              ],
+              "controlId": "formBasicText",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      style={
+                        Object {
+                          "margin": 5,
+                        }
+                      }
+                    >
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your name
+                      </ControlLabel>
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your name..."
+                        required={true}
+                        type="text"
+                      />
+                    </div>,
+                    <div
+                      style={
+                        Object {
+                          "margin": 5,
+                        }
+                      }
+                    >
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your email
+                      </ControlLabel>
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your email..."
+                        required={true}
+                        type="email"
+                      />
+                    </div>,
+                    <div
+                      style={
+                        Object {
+                          "margin": 5,
+                        }
+                      }
+                    >
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your state
+                      </ControlLabel>
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your state..."
+                        required={true}
+                        type="text"
+                      />
+                    </div>,
+                    <div
+                      style={
+                        Object {
+                          "margin": 5,
+                        }
+                      }
+                    >
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your city
+                      </ControlLabel>
+                      <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        placeholder="Your city..."
+                        required={true}
+                        type="text"
+                      />
+                    </div>,
+                  ],
+                  "style": Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <ControlLabel
+                          bsClass="control-label"
+                          srOnly={false}
+                        >
+                          Type your name
+                        </ControlLabel>,
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          placeholder="Your name..."
+                          required={true}
+                          type="text"
+                        />,
+                      ],
+                      "style": Object {
+                        "margin": 5,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "control-label",
+                          "children": "Type your name",
+                          "srOnly": false,
+                        },
+                        "ref": null,
+                        "rendered": "Type your name",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "form-control",
+                          "componentClass": "input",
+                          "placeholder": "Your name...",
+                          "required": true,
+                          "style": undefined,
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <ControlLabel
+                          bsClass="control-label"
+                          srOnly={false}
+                        >
+                          Type your email
+                        </ControlLabel>,
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          placeholder="Your email..."
+                          required={true}
+                          type="email"
+                        />,
+                      ],
+                      "style": Object {
+                        "margin": 5,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "control-label",
+                          "children": "Type your email",
+                          "srOnly": false,
+                        },
+                        "ref": null,
+                        "rendered": "Type your email",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "form-control",
+                          "componentClass": "input",
+                          "placeholder": "Your email...",
+                          "required": true,
+                          "style": undefined,
+                          "type": "email",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <ControlLabel
+                          bsClass="control-label"
+                          srOnly={false}
+                        >
+                          Type your state
+                        </ControlLabel>,
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          placeholder="Your state..."
+                          required={true}
+                          type="text"
+                        />,
+                      ],
+                      "style": Object {
+                        "margin": 5,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "control-label",
+                          "children": "Type your state",
+                          "srOnly": false,
+                        },
+                        "ref": null,
+                        "rendered": "Type your state",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "form-control",
+                          "componentClass": "input",
+                          "placeholder": "Your state...",
+                          "required": true,
+                          "style": undefined,
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <ControlLabel
+                          bsClass="control-label"
+                          srOnly={false}
+                        >
+                          Type your city
+                        </ControlLabel>,
+                        <FormControl
+                          bsClass="form-control"
+                          componentClass="input"
+                          placeholder="Your city..."
+                          required={true}
+                          type="text"
+                        />,
+                      ],
+                      "style": Object {
+                        "margin": 5,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "control-label",
+                          "children": "Type your city",
+                          "srOnly": false,
+                        },
+                        "ref": null,
+                        "rendered": "Type your city",
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "bsClass": "form-control",
+                          "componentClass": "input",
+                          "placeholder": "Your city...",
+                          "required": true,
+                          "style": undefined,
+                          "type": "text",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    style={
+                      Object {
+                        "maxWidth": "80%",
+                      }
+                    }
+                  >
+                    <ControlLabel
+                      bsClass="control-label"
+                      srOnly={false}
+                    >
+                      Type your message
+                    </ControlLabel>
+                    <FormControl
+                      bsClass="form-control"
+                      cols="110"
+                      componentClass="textarea"
+                      placeholder="Your Message..."
+                      required={true}
+                      rows="10"
+                    />
+                  </div>,
+                  "style": Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                      >
+                        Type your message
+                      </ControlLabel>,
+                      <FormControl
+                        bsClass="form-control"
+                        cols="110"
+                        componentClass="textarea"
+                        placeholder="Your Message..."
+                        required={true}
+                        rows="10"
+                      />,
+                    ],
+                    "style": Object {
+                      "maxWidth": "80%",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "control-label",
+                        "children": "Type your message",
+                        "srOnly": false,
+                      },
+                      "ref": null,
+                      "rendered": "Type your message",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "bsClass": "form-control",
+                        "cols": "110",
+                        "componentClass": "textarea",
+                        "placeholder": "Your Message...",
+                        "required": true,
+                        "rows": "10",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Button
+                    active={false}
+                    block={false}
+                    bsClass="btn"
+                    bsStyle="default"
+                    disabled={false}
+                    style={
+                      Object {
+                        "margin": 5,
+                      }
+                    }
+                    type="submit"
+                  >
+                    Submit
+                  </Button>,
+                  "style": Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexWrap": "wrap",
+                    "justifyContent": "center",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "active": false,
+                    "block": false,
+                    "bsClass": "btn",
+                    "bsStyle": "default",
+                    "children": "Submit",
+                    "disabled": false,
+                    "style": Object {
+                      "margin": 5,
+                    },
+                    "type": "submit",
+                  },
+                  "ref": null,
+                  "rendered": "Submit",
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "form",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

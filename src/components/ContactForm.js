@@ -13,6 +13,9 @@ const styles = {
   },
   inputDiv: {
     margin: 5
+  },
+  message: {
+    maxWidth: '80%'
   }
 };
 
@@ -60,7 +63,7 @@ class ContactForm extends Component {
                 <ControlLabel>Type your email</ControlLabel>
                 <FormControl
                   style={styles.field}
-                  type="text"
+                  type="email"
                   placeholder="Your email..."
                   required
                 />
@@ -80,9 +83,9 @@ class ContactForm extends Component {
               </div>
             </div>
             <div style={styles.content}>
-              <div>
+              <div style={styles.message}>
                 <ControlLabel>Type your message</ControlLabel>
-                <FormControl componentClass="textarea" placeholder="Your Message..." required />
+                <FormControl componentClass="textarea" placeholder="Your Message..." cols="110" rows="10" required />
               </div>
             </div>
             <div style={styles.content}>

@@ -4,9 +4,7 @@ exports[`ContactPage renders correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <div>
-    <h3>
-      Here will be the contact page
-    </h3>
+    <ContactForm />
   </div>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -21,21 +19,17 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h3>
-        Here will be the contact page
-      </h3>,
+      "children": <ContactForm />,
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": "Here will be the contact page",
-      },
+      "nodeType": "class",
+      "props": Object {},
       "ref": null,
-      "rendered": "Here will be the contact page",
-      "type": "h3",
+      "rendered": null,
+      "type": [Function],
     },
     "type": "div",
   },
@@ -45,21 +39,17 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h3>
-          Here will be the contact page
-        </h3>,
+        "children": <ContactForm />,
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Here will be the contact page",
-        },
+        "nodeType": "class",
+        "props": Object {},
         "ref": null,
-        "rendered": "Here will be the contact page",
-        "type": "h3",
+        "rendered": null,
+        "type": [Function],
       },
       "type": "div",
     },

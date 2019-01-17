@@ -3,7 +3,7 @@
 exports[`HomePage renders correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <withRouter(HomePage) />,
+  Symbol(enzyme.__unrendered__): <HomePage />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -15,25 +15,37 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
-      "children": [Function],
+      "children": Array [],
+      "style": Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexWrap": "wrap",
+        "justifyContent": "center",
+      },
     },
     "ref": null,
-    "rendered": [Function],
-    "type": [Function],
+    "rendered": Array [],
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "host",
       "props": Object {
-        "children": [Function],
+        "children": Array [],
+        "style": Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexWrap": "wrap",
+          "justifyContent": "center",
+        },
       },
       "ref": null,
-      "rendered": [Function],
-      "type": [Function],
+      "rendered": Array [],
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {
