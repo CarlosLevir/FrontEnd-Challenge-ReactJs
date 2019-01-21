@@ -23,7 +23,7 @@ Clone the project with
 ```sh
 https://github.com/CarlosLevir/FrontEnd-Challenge-ReactJs.git
 ```
-Get in the path project, then install de dependencies with:
+Get in the path project, then install the dependencies with:
 
 ```sh
 yarn
